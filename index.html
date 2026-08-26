@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenvy — Premium Digital Agency</title>
+  <meta name="description" content="Zenvy is a premium full-service digital agency building elite brands through design, code and performance-led growth." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <nav id="navbar" class="navbar">
+      <div class="container nav-inner">
+        <a href="#" class="logo" aria-label="Zenvy Home">
+          <span class="lime">ZEN</span><span>VY</span><i></i>
+        </a>
+        <div class="desktop-nav">
+          <div id="nav-links"></div>
+          <button class="btn btn-light" data-scroll="#contact">GET STARTED</button>
+        </div>
+        <button id="menu-open" class="icon-btn mobile-only" aria-label="Open menu"><i data-lucide="menu"></i></button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <button id="menu-close" class="mobile-close" aria-label="Close menu"><i data-lucide="x"></i></button>
+      <div id="mobile-links"></div>
+      <button class="btn btn-lime mobile-connect" data-scroll="#contact">CONNECT NOW</button>
+    </div>
+
+    <main>
+      <section class="hero section">
+        <div class="glow glow-hero"></div>
+        <div class="container hero-content">
+          <div class="eyebrow"><span>Premium Full-Service Agency</span></div>
+          <h1>WE ENGINEER<br><span>DOMINANCE.</span></h1>
+          <div class="hero-bottom">
+            <p>Zenvy is a multi-disciplinary agency building elite brands through high-end design, code, and performance-led growth marketing.</p>
+            <button id="watch-reel" class="reel-button">
+              <span class="play-circle"><i data-lucide="play"></i></span>
+              <span><b>WATCH THE REEL</b><small>Agency Showcase 2026</small></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="marquee-section">
+        <div class="marquee-track" id="client-marquee"></div>
+      </section>
+
+      <section id="impact" class="section impact-section">
+        <div class="container two-col">
+          <div>
+            <div class="section-label">AGENCY IMPACT</div>
+            <h2>MEASURABLE<br>EXCELLENCE.</h2>
+            <p class="lead">We are more than just a service; we are a complete growth engine. From initial branding to final conversion, we ensure maximum performance.</p>
+            <div id="impact-stats" class="stats-grid"></div>
+          </div>
+          <div class="impact-visual">
+            <div class="scale-card">
+              <i data-lucide="zap"></i>
+              <h3>Scale Without Limits</h3>
+              <p>360° Agency Solutions</p>
+            </div>
+            <div class="grade-card"><strong>A+</strong><span>Industry Standard</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services-section">
+        <div class="container">
+          <div class="center-heading">
+            <div class="section-label">GLOBAL ARSENAL</div>
+            <h2>ELITE CAPABILITIES</h2>
+          </div>
+          <div id="services-grid" class="services-grid"></div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+          <div class="portfolio-heading">
+            <div>
+              <div class="section-label line-label"><span></span> SELECTED WORKS</div>
+              <h2>PORTFOLIO</h2>
+            </div>
+            <p>A showcase of digital products we have crafted for visionary brands worldwide.</p>
+          </div>
+          <div id="portfolio-grid" class="portfolio-grid"></div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section reviews-section">
+        <div class="container center">
+          <div class="section-label">TESTIMONIALS</div>
+          <h2>CLIENT VOICES</h2>
+          <div class="testimonial-wrap">
+            <div id="testimonial-avatar" class="testimonial-avatar"></div>
+            <div class="quote-badge"><i data-lucide="quote"></i></div>
+            <div id="testimonial-stars" class="stars"></div>
+            <p id="testimonial-text" class="testimonial-text"></p>
+            <h3 id="testimonial-name"></h3>
+            <div id="testimonial-role" class="testimonial-role"></div>
+            <div id="testimonial-dots" class="dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="section team-section">
+        <div class="container">
+          <div class="center-heading">
+            <div class="section-label">THE TEAM</div>
+            <h2>MASTERMINDS</h2>
+          </div>
+          <div id="team-grid" class="team-grid"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container">
+          <div class="cta-card">
+            <div class="cta-content">
+              <h2>LET'S START<br>THE SCALE.</h2>
+              <button class="btn btn-dark" id="audit-btn">BOOK YOUR AUDIT</button>
+            </div>
+            <div class="cta-orb orb-one"></div>
+            <div class="cta-orb orb-two"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-logo"><span>ZEN</span>VY</div>
+        <div class="footer-links">
+          <a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Twitter</a>
+        </div>
+        <div class="copyright">© 2026 ZENVY GLOBAL. ALL RIGHTS RESERVED.</div>
+      </div>
+    </footer>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-card">
+        <button id="modal-close" class="modal-close"><i data-lucide="x"></i></button>
+        <div class="spinner"></div>
+        <h3>Connecting Agency Core...</h3>
+        <p>Zenvy Directorial Reel 2026</p>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>
