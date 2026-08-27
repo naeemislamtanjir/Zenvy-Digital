@@ -3,13 +3,13 @@ const navLinks = [
   ["Impact", "#impact"], ["Reviews", "#reviews"], ["Team", "#team"], ["Contact", "#contact"]
 ];
 
-const clients = ["TECHNOVA","QUANTUM","VELOCITY","ECLIPSE","APEX","NEXUS","ORACLE","STARK"];
+const clients = ["VISION PLUS","THE NORD MALL","CHANDARIA IND","OILYSSA","LIMOHAWK","UPFIT GYM","BUTTERFLY PROPERTIES","WESTEEN"];
 
 const projects = [
-  { title:"TECHNOVA", category:"Digital Branding", image:"https://images.unsplash.com/photo-1634942537034-2531766767d7?q=80&w=1000&auto=format&fit=crop" },
-  { title:"QUANTUM SAAS", category:"Web Engineering", image:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop" },
-  { title:"LUXE AESTHETICS", category:"Visual Identity", image:"https://images.unsplash.com/photo-1600508774444-455b23bb2a12?q=80&w=1000&auto=format&fit=crop" },
-  { title:"VELOCITY", category:"Growth Marketing", image:"https://images.unsplash.com/photo-1551288049-bbbda5366a71?q=80&w=1000&auto=format&fit=crop" }
+  { title:"THE NORD MALL", category:"Digital Branding", image:"https://images.unsplash.com/photo-1634942537034-2531766767d7?q=80&w=1000&auto=format&fit=crop" },
+  { title:"OILYSSA", category:"Web Engineering", image:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop" },
+  { title:"LIMOHAWK", category:"Visual Identity", image:"https://images.unsplash.com/photo-1600508774444-455b23bb2a12?q=80&w=1000&auto=format&fit=crop" },
+  { title:"WESTEEN", category:"Growth Marketing", image:"https://images.unsplash.com/photo-1551288049-bbbda5366a71?q=80&w=1000&auto=format&fit=crop" }
 ];
 
 const services = [
@@ -35,7 +35,7 @@ const impactStats = [
 ];
 
 const team = [
-  ["Naeem Islam Tanjir","Founder & CEO","https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=700&auto=format&fit=crop"],
+  ["Naeem Islam Tanjir","Founder & CEO","file:///C:/Users/Naeem%20Islalm/Downloads/Naeem.html"],
   ["Atikur Rahman","Lead Developer","https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=700&auto=format&fit=crop"],
   ["Sarah Rahman","Creative Director","https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=700&auto=format&fit=crop"],
   ["Maria Hossain","Marketing Strategist","https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=700&auto=format&fit=crop"]
