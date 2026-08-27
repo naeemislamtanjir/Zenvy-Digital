@@ -35,7 +35,7 @@ const impactStats = [
 ];
 
 const team = [
-  ["Naeem Islam Tanjir","Founder & CEO","file:///C:/Users/Naeem%20Islalm/Downloads/Naeem.html"],
+  ["Naeem Islam Tanjir","Founder & CEO","images/naeem.jpg"],
   ["Atikur Rahman","Lead Developer","https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=700&auto=format&fit=crop"],
   ["Sarah Rahman","Creative Director","https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=700&auto=format&fit=crop"],
   ["Maria Hossain","Marketing Strategist","https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=700&auto=format&fit=crop"]
